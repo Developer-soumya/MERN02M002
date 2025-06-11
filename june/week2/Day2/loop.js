@@ -13,7 +13,7 @@ let b=a++;
 console.log(a,b); //a=2 b=3, a=2 b=4 ,a=3 b=4, a=3 b=2,
 
 console.log(0 == '');
-console.log(0 === '')
+console.log(0 === '');
 
 console.log(!!false);
 // console.log(!!"")
@@ -129,4 +129,28 @@ console.log(str)
 let c=20;
 console.log("value is :",(c+1))
 console.log(`value is : ${c}+1`);
+
+
+
+//for in 
+
+const obj1={
+    name:"hdfj",
+    age:20
+
+}
+
+for (let key in obj1) {
+    console.log(obj1[key])
+}
+
+let arr1=[2,3,4,5,6];
+for (let idx in arr1) {
+    console.log(arr1[idx])
+}
+
+console.log("for of loop")
+for (const ele of arr1) {
+    console.log(ele)
+}
 
