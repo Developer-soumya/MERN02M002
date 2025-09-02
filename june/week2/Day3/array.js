@@ -90,15 +90,8 @@ console.log(arr2.includes(10));
 
 console.log(arr2.reverse())
 
-let compArr=["Bloomberg","Microsoft","Uber","Google","IBM","Netflix"];
-compArr.shift();
-console.log(compArr)
+let compArr=["Bloomberg","Microsoft","Uber","Google","IBM","Netflix"]
 
-compArr.splice(1,1,"Ola");
-console.log(compArr)
-
-compArr.push("Amazon");
-console.log(compArr)
 
 
 
